@@ -420,4 +420,7 @@ img {
     flex: 100%;
     max-width: 300px;
   }
+  .solder {
+    max-width: 100%;
+  }
 }
