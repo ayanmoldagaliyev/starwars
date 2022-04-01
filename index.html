@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-slide">
+      <div style="background-image: url(img/bg/main-bg-1.jpg)"></div>
+      <div style="background-image: url(img/bg/main-bg-2.jpg)">
+        <img src="img/solders/kylo.png" class="solder" alt="" />
+      </div>
+      <div style="background-image: url(img/bg/main-bg-3.jpg)">
+        <img src="img/solders/solder.png" class="solder" alt="" />
+      </div>
+    </div>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrap">
+          <a href="#" class="logo">
+            <img width="135" src="img/logo.png" alt="logo" class="logo-image" />
+          </a>
+          <nav class="menu">
+            <div id="menu-header">
+              <span class="menu-span"></span>
+              <span class="menu-span"></span>
+              <span class="menu-span"></span>
+            </div>
+            <div id="menu-content">
+              <li class="menu-item">
+                <a href="#" class="menu-link">Билеты</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">О фильме</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Трейлеры</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Отзывы</a>
+              </li>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="content">
+        <div class="container">
+          <span class="subtitle">Эпизод IX</span>
+          <h2 class="title">Скайуокер. Восход</h2>
+          <p class="description">
+            Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже
+            более сорока лет, и обещает дать ответы на все загадки из предыдущих
+            серий. Зрителя ожидают старые и новые герои, уникальные миры,
+            увлекательные путешествия на край Галактики и грандиозный финал
+            фантастической саги
+          </p>
+          <div class="info">
+            <span class="small">Премьера</span>
+            <span class="date">19 декабря 2019</span>
+          </div>
+
+          <button class="button">Смотреть трейлер</button>
+          <h3 class="wrap-title">Предыдущие эпизоды</h3>
+          <div class="wrap">
+            <div class="wrap-item item-1">
+              <span class="item-year">1977</span>
+              <span class="item-subtitle">Эпизод IV:</span>
+              <h4 class="item-title">Новая надежда</h4>
+              <div class="item-ratinge">
+                <span>Рейтинг</span>
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star-light.svg" alt="" />
+              </div>
+            </div>
+            <div class="wrap-item item-2">
+              <span class="item-year">1980</span>
+              <span class="item-subtitle">Эпизод V:</span>
+              <h4 class="item-title">Империя наносит ответный удар</h4>
+              <div class="item-ratinge">
+                <span>Рейтинг</span>
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star-light.svg" alt="" />
+              </div>
+            </div>
+            <div class="wrap-item item-3">
+              <span class="item-year">1983</span>
+              <span class="item-subtitle">Эпизод VI:</span>
+              <h4 class="item-title">Возвращение джедая</h4>
+              <div class="item-ratinge">
+                <span>Рейтинг</span>
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star-light.svg" alt="" />
+              </div>
+            </div>
+            <div class="wrap-item item-4">
+              <span class="item-year">1999</span>
+              <span class="item-subtitle">Эпизод I:</span>
+              <h4 class="item-title">Скрытая угроза</h4>
+              <div class="item-ratinge">
+                <span>Рейтинг</span>
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star.svg" alt="" />
+                <img src="img/items/star-light.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="slider-buttons">
+            <div class="slider-button slider-button-left" id="slide_left">
+              <img src="img/left-arrow.svg" alt="left-arrow" />
+            </div>
+            <div class="slider-button slider-button-right" id="slide_right">
+              <img src="img/right-arrow.svg" alt="right-arrow" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="slider">
+        <div class="container">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide">
+                <img src="img/solders/kylo.png" class="solder" alt="" />
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/scriprt.js"></script>
+  </body>
+</html>
